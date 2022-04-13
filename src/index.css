@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  @font-face {
+    font-family: "FontsFree-Net-ir_sans";
+    src: local("FontsFree-Net-ir_sans"),
+      url("https://www.uplooder.net/files/6c2d74881e45c574b3e001ab25639c8d/FontsFree-Net-ir-sans.ttf.html")
+        format("ttf");
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  margin-left: 2px;
+  width: 7px;
+  height: 2px;
+  cursor: pointer;
+  
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(114, 94, 94, 0.658);
+  border-radius: 20px;
+  border: transparent;
+  
+}
